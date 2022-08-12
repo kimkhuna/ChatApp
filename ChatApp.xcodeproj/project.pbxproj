@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C0BB07928A510C700859BFF /* ChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BB07828A510C700859BFF /* ChattingViewController.swift */; };
 		6C2B52BA289B4E2F00DA18F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B52B9289B4E2F00DA18F4 /* AppDelegate.swift */; };
 		6C2B52BC289B4E2F00DA18F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B52BB289B4E2F00DA18F4 /* SceneDelegate.swift */; };
 		6C2B52BE289B4E2F00DA18F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B52BD289B4E2F00DA18F4 /* ViewController.swift */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		12F158441EB6328E33304818 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14AB3F9986398DF54F4195A0 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
-		6C0BB07828A510C700859BFF /* ChattingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
 		6C2B52B6289B4E2F00DA18F4 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2B52B9289B4E2F00DA18F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C2B52BB289B4E2F00DA18F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 				6C2B52CF289B58DB00DA18F4 /* SignUpViewController.swift */,
 				6C2B52D1289B58EE00DA18F4 /* LoginViewController.swift */,
 				6C2B52D3289B590600DA18F4 /* ChatViewController.swift */,
-				6C0BB07828A510C700859BFF /* ChattingViewController.swift */,
 				6CBA54DB28A3F268001D63D4 /* MessageViewCell.swift */,
 				6CBA54DF28A3F4B3001D63D4 /* ReceiveTableViewCell.swift */,
 				6C5948A428A355FE0054A43F /* Data Model.swift */,
@@ -245,7 +242,6 @@
 				6C2B52D0289B58DB00DA18F4 /* SignUpViewController.swift in Sources */,
 				6C2B52D2289B58EE00DA18F4 /* LoginViewController.swift in Sources */,
 				6C2B52D4289B590600DA18F4 /* ChatViewController.swift in Sources */,
-				6C0BB07928A510C700859BFF /* ChattingViewController.swift in Sources */,
 				6CBA54E128A3F4B3001D63D4 /* ReceiveTableViewCell.swift in Sources */,
 				6C5948A528A355FE0054A43F /* Data Model.swift in Sources */,
 				6C2B52BC289B4E2F00DA18F4 /* SceneDelegate.swift in Sources */,
