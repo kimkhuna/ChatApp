@@ -1,6 +1,6 @@
 
 
-Firebase Chatting App
+Firebase Chat App
 
 
 
