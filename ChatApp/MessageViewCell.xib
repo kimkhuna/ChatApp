@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SendCell" id="KGk-i7-Jjw" customClass="MessageViewCell" customModule="ChatApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="eQp-jZ-Dbc">
+                        <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="JzL-is-xDv"/>
+                            <constraint firstAttribute="height" constant="44" id="Lmd-iA-Muc"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile2" translatesAutoresizingMaskIntoConstraints="NO" id="Z9y-xy-lXA">
+                        <rect key="frame" x="276" y="0.0" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="4h1-Re-uIg"/>
+                            <constraint firstAttribute="width" constant="44" id="vtW-tP-O6L"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meBubble" translatesAutoresizingMaskIntoConstraints="NO" id="wQI-Je-vji">
+                        <rect key="frame" x="52" y="0.0" width="216" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="216" id="ixW-Ie-ZiH"/>
+                        </constraints>
+                    </imageView>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tUd-Z2-aNX">
+                        <rect key="frame" x="61" y="5" width="176" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tUd-Z2-aNX" firstAttribute="leading" secondItem="eQp-jZ-Dbc" secondAttribute="trailing" constant="17" id="0qX-Qd-irr"/>
+                    <constraint firstItem="tUd-Z2-aNX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="6jZ-YU-W8n"/>
+                    <constraint firstItem="Z9y-xy-lXA" firstAttribute="leading" secondItem="tUd-Z2-aNX" secondAttribute="trailing" constant="39" id="Mif-Hm-aHt"/>
+                    <constraint firstAttribute="bottom" secondItem="eQp-jZ-Dbc" secondAttribute="bottom" id="VI2-db-Ml0"/>
+                    <constraint firstItem="eQp-jZ-Dbc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="gLq-dV-F28"/>
+                    <constraint firstItem="Z9y-xy-lXA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hZf-Dl-2A5"/>
+                    <constraint firstAttribute="trailing" secondItem="Z9y-xy-lXA" secondAttribute="trailing" id="kdA-5i-BuN"/>
+                    <constraint firstItem="wQI-Je-vji" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="rTP-Nu-DlA"/>
+                    <constraint firstItem="wQI-Je-vji" firstAttribute="leading" secondItem="eQp-jZ-Dbc" secondAttribute="trailing" constant="8" symbolic="YES" id="sB1-9C-fYo"/>
+                    <constraint firstItem="eQp-jZ-Dbc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uyh-G3-kbB"/>
+                    <constraint firstAttribute="bottom" secondItem="tUd-Z2-aNX" secondAttribute="bottom" constant="5" id="wYY-ms-4qV"/>
+                    <constraint firstAttribute="bottom" secondItem="Z9y-xy-lXA" secondAttribute="bottom" id="x0t-ec-lIV"/>
+                    <constraint firstAttribute="bottom" secondItem="wQI-Je-vji" secondAttribute="bottom" id="zUV-Vh-gjC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+            <connections>
+                <outlet property="sendmessage" destination="tUd-Z2-aNX" id="1Hm-H8-7Ah"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="60.9375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="meBubble" width="89" height="74"/>
+        <image name="profile" width="512" height="512"/>
+        <image name="profile2" width="200" height="203"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
